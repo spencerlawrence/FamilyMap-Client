@@ -1,0 +1,174 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.spencer.familymap.Fragments.FilterFragment">
+
+    <RelativeLayout
+        android:id="@+id/baptism"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Baptism Events"
+            android:textSize="30dp"/>
+        <ToggleButton
+            android:id="@+id/baptismToggle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd ="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="40dp"
+            android:layout_marginRight="40dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/birth"
+        android:layout_below="@id/baptism"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Birth Events"
+            android:textSize="30dp"/>
+        <ToggleButton
+            android:id="@+id/birthToggle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd ="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="40dp"
+            android:layout_marginRight="40dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/death"
+        android:layout_below="@id/birth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Death Events"
+            android:textSize="30dp"/>
+        <ToggleButton
+            android:id="@+id/deathToggle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd ="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="40dp"
+            android:layout_marginRight="40dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/marriage"
+        android:layout_below="@id/death"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Marriage Events"
+            android:textSize="30dp"/>
+        <ToggleButton
+            android:id="@+id/marriageToggle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd ="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="40dp"
+            android:layout_marginRight="40dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/fatherSide"
+        android:layout_below="@id/marriage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Father's Side"
+            android:textSize="30dp"/>
+        <ToggleButton
+            android:id="@+id/fatherSideToggle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd ="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="40dp"
+            android:layout_marginRight="40dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/motherSide"
+        android:layout_below="@id/fatherSide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mother's Side"
+            android:textSize="30dp"/>
+        <ToggleButton
+            android:id="@+id/motherSideToggle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd ="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="40dp"
+            android:layout_marginRight="40dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/maleEvents"
+        android:layout_below="@id/motherSide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male Events"
+            android:textSize="30dp"/>
+        <ToggleButton
+            android:id="@+id/maleToggle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd ="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="40dp"
+            android:layout_marginRight="40dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/femaleEvents"
+        android:layout_below="@id/maleEvents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female Events"
+            android:textSize="30dp"/>
+        <ToggleButton
+            android:id="@+id/femaleToggle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd ="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="40dp"
+            android:layout_marginRight="40dp" />
+    </RelativeLayout>
+
+</RelativeLayout>
